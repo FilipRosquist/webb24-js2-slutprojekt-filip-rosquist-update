@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.navBar button {
+  padding: 8px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.navBar button:hover {
+  background-color: #d4d4d4;
+}
+
+#title {
+  text-align: center;
+  justify-content: center;
+}
+
+.productCard button {
+  background-color: #006eff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.productCard button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.productCard button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.purchaseConf {
+  text-align: center;
+}
+
+.productPage {
+  padding: 15px;
+  text-align: center;
+  }
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.productCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 15px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.productImg {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.shoppingCart {
+  margin: 25px;
+  text-align: center;
+}
+
+.shoppingCart ul {
+  list-style-type: none;
+}
+
+.shoppingCartBtn {
+  padding: 8px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.shoppingCart button {
+  padding: 8px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.purchaseConfirmation {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.purchaseConfirmation p {
+  font-weight: bolder;
+}
+
+.purchaseConfirmation ul {
+  list-style-type: none;
+}
+
+.sortOptions {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.errorMsg {
+  text-align: center;
+}
+
+.searchSortContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.searchBar button {
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.sortOptions label {
+  margin-right: 5px;
+  
+}
+
+.sortOptions select {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.shoppingCart button {
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+}
+
+.shoppingCart button:hover {
+  background-color: #d4d4d4;
+}
+
+.purchaseConfirmation button {
+  padding: 10px 20px;
+  border: 1px black solid;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.purchaseConfirmation button:hover {
+  background-color: #d4d4d4;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.cartItemImg {
+  width: auto;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.shoppingCart ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shoppingCart button {
+  padding: 8px 15px;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.shoppingCart button.removeButton {
+  background-color: red;
+  color: white;
+}
+
+.shoppingCart button.removeButton:hover {
+  background-color: darkred;
+}
+
+.shoppingCart button.checkoutButton {
+  background-color: green;
+  color: white;
+}
+
+.shoppingCart button.checkoutButton:hover {
+  background-color: rgb(0, 78, 0);
+}
+
+.shoppingCart button.emptyCartButton {
+  background-color: black;
+  color: white;
+}
+
+.shoppingCart button.emptyCartButton:hover {
+  background-color: #838383;
+}
+
+
+

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Air Pro Max 2TB",
+    "price": 1250,
+    "stock": 13,
+    "image": "https://cdn.pixabay.com/photo/2014/12/09/23/40/macbook-562498_1280.png"
+  },
+  {
+    "id": 2,
+    "name": "Nintendo Switch OLED",
+    "price": 550,
+    "stock": 15,
+    "image": "https://cdn.pixabay.com/photo/2020/05/15/08/28/switch-5172817_1280.png"
+  },
+  {
+    "id": 3,
+    "name": "Vincents Headphones",
+    "price": 150,
+    "stock": 7,
+    "image": "https://cdn.pixabay.com/photo/2016/01/09/07/44/headphone-1129896_1280.png"
+  },
+  {
+    "id": 4,
+    "name": "PC Mouse T1 Faker Edition",
+    "price": 75,
+    "stock": 9,
+    "image": "https://cdn.pixabay.com/photo/2013/07/13/12/17/mouse-159568_1280.png"
+  },
+  {
+    "id": 5,
+    "name": "Monitor 4K 360Hz",
+    "price": 400,
+    "stock": 0,
+    "image": "https://cdn.pixabay.com/photo/2016/01/12/12/47/monitor-1135350_1280.png"
+  },
+  {
+    "id": 6,
+    "name": "NewTech RGB Keyboard",
+    "price": 100,
+    "stock": 8,
+    "image": "https://cdn.pixabay.com/photo/2020/03/04/18/38/keyboard-4902427_1280.png"
+  }
+]
